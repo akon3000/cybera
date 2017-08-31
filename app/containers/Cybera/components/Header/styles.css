@@ -1,0 +1,201 @@
+.container {
+  padding: 0;
+}
+
+.navBar {
+  background-color: #0D597C;
+  color: #FFF;
+  text-align: right;
+}
+
+.logoBar {
+  padding: 5px 0;
+}
+
+.nav {
+  padding-right: 50px;
+  margin: 22px auto;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navButton {
+  cursor: pointer;
+}
+
+.signIn {
+  font-size: 10pt;
+  padding: 14px 0;
+  text-align: right;
+}
+
+.signIn span {
+  padding: 0 10px;
+}
+
+.signIn span.pipe {
+  padding: 0;
+  font-size: 18px;
+}
+
+.logoImageContainer {
+  height: 100%;
+  text-align: left;
+}
+
+.logoImageContainer img {
+  height: 70px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.contactNumber {
+  font-size: 35pt;
+  padding-top: 18px;
+  color: #E48E32;
+  text-align: right;
+}
+
+.Mobilecontainer {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    display: none;
+  }
+
+  .Mobilecontainer {
+    display: block;
+    padding: 0;
+  }
+
+  .logoBarMobile {
+    height: 100px;
+  }
+
+  .logoBarMobile div {
+    padding-top: 3px;
+    padding-left: 10px;
+  }
+
+  .logoImageContainerMobile img {
+    height: 100%;
+  }
+
+  .toggleMenuContainer {
+    text-align: right !important;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .toggleMenuContainer button {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navMobileContainer {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: relative;
+    color: #FFF;
+  }
+
+  .navMobile {
+    width: 100%;
+    background-color: #0D597C;
+    margin: 0;
+    padding: 0;
+    opacity: 0.95;
+    list-style-type: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .navMobile button {
+    width: 100%;
+    height: 43px;
+    padding: 0;
+  }
+
+  .navMobile button:hover {
+    background-color: #1A2E4F;
+  }
+
+  .navMobile .navButton {
+    font-size: 10pt;
+    padding: 12px 0;
+  }
+
+  .navMobile .navButton:hover {
+    background-color: #1A2E4F;
+  }
+
+  .menuOpen div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .menuOpen .navMobileContainer {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navMobileContainer {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: relative;
+    color: #FFF;
+  }
+
+  .navMobile {
+    width: 100%;
+    background-color: #0D597C;
+    margin: 0;
+    padding: 0;
+    opacity: 0.95;
+    list-style-type: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+  .navMobile button {
+    width: 100%;
+    height: 54px;
+    padding: 0;
+  }
+
+  .navMobile button:hover {
+    background-color: #1A2E4F;
+  }
+
+  .navMobile .navButton {
+    font-size: 12pt;
+    padding: 15px 0;
+  }
+
+  .navMobile .navButton:hover {
+    background-color: #1A2E4F;
+  }
+
+  .menuOpen div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .menuOpen .navMobileContainer {
+    display: block;
+  }
+}

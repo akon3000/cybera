@@ -1,0 +1,82 @@
+
+.items {
+  padding: 5px;
+  font-size: 0.85em;
+  position: relative;
+  height: 33px;
+}
+
+.items .name {
+  line-height: 24px;
+  height: 24px;
+  width: 250px;
+  float: left;
+  overflow: hidden;
+}
+
+.items button {
+  font-size: 22px;
+  line-height: 22px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+  right: 2px;
+  top: 1px;
+}
+
+.items button.loading {
+  margin-top: -2px;
+}
+
+.items .loadingContainer .cancel {
+  display: none;
+}
+
+.items .loadingContainer:hover .loading {
+  display: none !important;
+}
+
+.items .loadingContainer:hover .cancel {
+  display: block;
+}
+
+.loadingBackground {
+  position: absolute !important;
+  top: 3px;
+  left: 5px;
+  z-index: 0;
+}
+
+button.finish {
+  color: green;
+}
+
+button.cancelled {
+  font-size: 0.85em;
+  width: 60px;
+  color: #666;
+}
+
+button.error {
+  color: #F44336;
+}
+
+button.error span {
+  position: absolute;
+  font-size: 12px;
+  width: 250px;
+  background: rgba(0, 0, 0, 0.8);
+  line-height: 13px;
+  text-align: left;
+  padding: 5px;
+  display: none;
+  right: 30px;
+  bottom: 5px;
+  z-index: 11;
+}
+
+button.error:hover span {
+  display: block;
+}
+

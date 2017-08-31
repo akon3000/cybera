@@ -1,0 +1,29 @@
+.popup {
+  /* height: 400px; */
+  text-align: center;
+}
+
+.buttomRow {
+  border-top: 1px solid #BBB;
+  text-align: right;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.body {
+  position: relative;
+  font-size: 26px;
+  font-family: Lato;
+  font-weight: 400;
+  text-align: center;
+}
+
+.body img {
+  margin: 30px auto;
+  width: 200px;
+  max-width: 100%;
+  opacity: 0.6;
+  position: relative;
+}

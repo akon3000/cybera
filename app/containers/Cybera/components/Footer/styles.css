@@ -1,0 +1,408 @@
+.container {
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  float: left;
+}
+
+.getStartedContainer {
+  background-image: url('./bg_blue2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+}
+
+.logoDiv {
+  margin: 0;
+  padding: 30% 0 25% 20%;
+  font-size: 28pt;
+}
+
+.logoDiv img {
+  width: 250px;
+}
+
+.handIpad {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  padding-bottom: 20%;
+}
+
+.handIpad img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.buttonContainer {
+  text-align: right;
+  padding: 45% 30% 45% 0;
+}
+
+button.getStartedButton {
+  border: 3px solid #FFF;
+  padding: 30px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.infoContainer {
+  background-color: #D4D4D6;
+  padding: 35px 150px;
+  font-size: 14pt;
+}
+
+.infoDiv span {
+  color: #E48E32;
+}
+
+.subscribeContainer {
+  padding: 30px 0 50px;
+  background-image: url('./bg_blue3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 40px #000;
+}
+
+.subscribeContainer span {
+  color: #FFF;
+  font-size: 26px;
+}
+
+.contactContainer {
+  background-color: #D4D4D6;
+  text-align: left;
+}
+
+.contactInfoContainer {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.findUs {
+  font-size: 26px;
+}
+
+.map {
+  height: 300px;
+  margin: 10px 0;
+}
+
+.map iframe {
+  border: none;
+}
+
+.address {
+  float: left;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.emailNnumber {
+  float: right;
+  margin-top: 10px;
+  font-size: 15pt;
+}
+
+.emailNnumber span {
+  font-size: 18pt;
+  color: #0D597C;
+}
+
+.getInTouchContainer {
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+
+.getInTouchForm {
+  margin: 10px 0;
+}
+
+.socialMediaContainer {
+  background-color: #D4D4D6;
+  color: #0D597C;
+  padding: 20px 0;
+}
+
+.socialMediaContainer a {
+  color: #0D597C;
+}
+
+.socialMediaLink {
+  cursor: pointer;
+}
+
+.backtoTopContainer {
+  display: none;
+}
+
+.bottomFooter {
+  background-color: #0D597C;
+  color: #FFF;
+}
+
+.footerLogo {
+  padding: 10px 0;
+  box-shadow: 5px 5px 50px #000;
+}
+
+.copyright {
+  margin-top: 10px;
+  padding: 20px 0;
+}
+
+.handIpadMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logoDiv {
+    padding: 0;
+  }
+
+  .logoDiv span,
+  br {
+    display: none;
+  }
+
+  .logoDiv img {
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .handIpad {
+    display: none;
+  }
+
+  .buttonContainer {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  button.getStartedButton {
+    border: 3px solid #FFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .handIpadMobile {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .handIpadMobile img {
+    width: 80%;
+  }
+
+  .infoContainer {
+    padding: 0;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .infoDiv {
+    padding: 5px 0 5px 20%;
+  }
+
+  .subscribeContainer {
+    padding: 10px 0;
+    box-shadow: 5px 5px 40px #000;
+  }
+
+  .subscribeContainer span {
+    font-size: 20px;
+  }
+
+  .contactInfoContainer {
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  .findUs {
+    font-size: 20px;
+  }
+
+  .map {
+    height: 120px;
+    margin: 0;
+  }
+
+  .address {
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .address br {
+    display: block;
+  }
+
+  .emailNnumber {
+    float: right;
+    margin-top: 5px;
+    font-size: 10pt;
+  }
+
+  .emailNnumber br {
+    display: block;
+  }
+
+  .emailNnumber span {
+    font-size: 15pt;
+  }
+
+  .getInTouchContainer {
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .getInTouchContainer br {
+    display: none;
+  }
+
+  .getInTouchForm {
+    margin: 0;
+    padding: 0;
+  }
+
+  .socialMediaContainer {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+  .backtoTopContainer {
+    display: block;
+    background-color: #D4D4D6;
+    color: #0D597C;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .footerLogo img {
+    width: 70%;
+  }
+
+  .copyright {
+    margin-top: 0;
+    font-size: 9pt;
+    padding: 25px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .backtoTopContainer {
+    display: block;
+    background-color: #D4D4D6;
+    color: #0D597C;
+    text-align: center;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .logoDiv span {
+    display: none;
+  }
+
+  .logoDiv img {
+    width: 80%;
+  }
+
+  .buttonContainer {
+    padding: 45% 20% 40% 0;
+  }
+
+  button.getStartedButton {
+    border: 3px solid #FFF;
+    padding: 30px 40px;
+    border-radius: 5px;
+    font-size: 8pt;
+  }
+
+  .handIpadMobile {
+    display: none;
+  }
+
+  .infoContainer {
+    padding: 12px 0;
+    font-size: 8pt;
+  }
+
+  .subscribeContainer {
+    padding: 5px 0 25px;
+    box-shadow: 5px 5px 40px #000;
+  }
+
+  .subscribeContainer span {
+    font-size: 26px;
+  }
+
+  .removeTablet {
+    display: none;
+  }
+
+  .contactInfoContainer {
+    margin: 0;
+    padding: 10px 30px;
+  }
+
+  .findUs {
+    font-size: 26px;
+  }
+
+  .map {
+    height: 180px;
+    margin: 0;
+  }
+
+  .address {
+    float: left;
+    font-size: 10pt;
+  }
+
+  .emailNnumber {
+    float: right;
+    font-size: 12pt;
+  }
+
+  .emailNnumber span {
+    font-size: 15pt;
+  }
+
+  .getInTouchContainer {
+    margin: 0;
+    padding: 10px 30px;
+  }
+
+  .getInTouchForm {
+    margin: 0;
+  }
+
+  .socialMediaContainer {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+  .footerLogo img {
+    width: 70%;
+  }
+
+  .copyright {
+    margin-top: 0;
+    font-size: 9pt;
+    padding: 25px 10px;
+  }
+}

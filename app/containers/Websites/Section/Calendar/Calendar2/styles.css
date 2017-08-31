@@ -1,0 +1,76 @@
+.calendar-2 .content-calendar {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.calendar-2 .content-calendar > .calendar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.calendar-2 .content-calendar > .calendar,
+.calendar-2 .content-calendar > .calendar > :last-child {
+  width: 100% !important;
+}
+
+.calendar-2 .content-calendar > .calendar > :last-child > :first-child,
+.calendar-2 .content-calendar > .calendar > :last-child > :last-child > :first-child > :first-child,
+.calendar-2 .content-calendar > .calendar > :last-child > :last-child > :first-child > :nth-child(2) {
+  display: none !important;
+}
+
+.calendar-2 .content-calendar > .calendar > .day {
+  padding: 0 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 1px 1px 1px #C4C2C2;
+}
+
+.calendar-2 .content-calendar > .calendar > .year {
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.calendar-2 .content-calendar > .calendar > .year > button {
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #C4C2C2;
+}
+
+.calendar-2 .content-calendar > .calendar > .month {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+}
+
+.calendar-2 .content-calendar > .calendar > .month > button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.calendar-2 .content-calendar > .calendar > .month > button > small,
+.calendar-2 .content-calendar > .calendar > .month > button > b {
+  text-shadow: 1px 1px 1px #C4C2C2;
+}
+
+.calendar-2 .content-calendar > .tools-group {
+  padding-top: 15px;
+}
+
+.calendar-2 .content-calendar > .tools-group svg {
+  transform: translate(-5px, -5px);
+}
+
+.calendar-2 .content-descrip {
+  padding: 25px;
+}

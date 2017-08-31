@@ -1,0 +1,8 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}

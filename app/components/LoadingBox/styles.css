@@ -1,0 +1,36 @@
+.loading {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5000;
+}
+
+.loading.inside {
+  position: absolute;
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.loading svg {
+  color: #EEE;
+  font-size: 60px;
+  line-height: 60px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -30px;
+  text-align: center;
+  animation: spin 1s infinite steps(8);
+}

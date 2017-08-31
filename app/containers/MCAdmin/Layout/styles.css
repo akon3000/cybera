@@ -1,0 +1,186 @@
+.layout {
+  font-family: lato;
+}
+
+.layout button {
+  cursor: pointer;
+  border: none;
+}
+
+.removeFacebook {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.removeFacebook p {
+  margin-top: 40px;
+}
+
+.right {
+  padding-top: 15px;
+  height: 57px;
+}
+
+.topIcon {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #E6E6E6 !important;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.topIcon svg {
+  font-size: 18px;
+}
+
+.topIcon:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.rightTopMenuContainer {
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.memberMenu {
+  text-transform: capitalize;
+  color: #FFF;
+}
+
+.memberMenuHover {
+  color: #333;
+}
+
+.thumb {
+  background: #117DB8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 0.85em;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.thumbHover {
+  background: #E6E6E6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 0.85em;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.arrowContainer {
+  padding-right: 7px;
+  z-index: 1201;
+}
+
+.subMenu {
+  display: table;
+  position: absolute;
+  top: 57px;
+  right: 0;
+  border: 1px solid #E6E6E6;
+  z-index: 1201;
+  background: #FFF;
+}
+
+.subMenuList {
+  display: table-cell;
+  padding: 0 15px;
+  vertical-align: middle;
+}
+
+.subMenuList li {
+  margin: 15px 0;
+  list-style-type: none;
+  font-size: 0.85em;
+  text-align: right;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.subMenuList li:hover {
+  color: #00A9DF;
+}
+
+.hr {
+  border-top: 1px solid #E6E6E6;
+}
+
+.hide {
+  display: none;
+}
+
+.deviceRightTopMenuContainer {
+  display: none;
+}
+
+.content {
+  padding: 0 0 40px;
+  color: #333;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.content h1 {
+  font-size: 1.2em;
+}
+
+.content h2 {
+  font-size: 1.1em;
+  margin: 25px 0 10px;
+}
+
+.content h3 {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 1024px) {
+  .rightTopMenuContainer {
+    display: none;
+  }
+
+  .deviceRightTopMenuContainer {
+    display: inline-block;
+    position: relative;
+    float: right;
+  }
+
+  .content {
+    padding: 0 10px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topIcon {
+    margin-right: 2px;
+  }
+
+  .subMenuList {
+    padding: 0 5px;
+  }
+
+  .subMenuList li {
+    margin: 5px 0;
+  }
+
+  .content {
+    padding: 0 10px 15px;
+  }
+}

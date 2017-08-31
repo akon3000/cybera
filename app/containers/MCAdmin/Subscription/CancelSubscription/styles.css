@@ -1,0 +1,70 @@
+.cancelPopup {
+  font-family: Montserrat;
+  color: #333;
+  line-height: 20px;
+  text-align: left;
+  padding: 0;
+}
+
+.showPassword span {
+  font-family: Montserrat;
+  color: #333;
+}
+
+.showPassword > div {
+  padding: 0;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.showPassword input {
+  border: 1px solid #DDD;
+  padding: 8px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.showPassword > div > button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.success {
+  font-family: Montserrat;
+  color: #333;
+  text-align: left;
+  padding: 0;
+}
+
+.cancelReasonsContanier {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Montserrat;
+}
+
+.cancelReasonsContanier label {
+  font-family: Montserrat;
+  color: #333;
+}
+
+.cancelReasonsContanier textarea {
+  width: 300px;
+  height: 60px;
+  resize: none;
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #333;
+  border: 1px solid grey;
+  margin: 10px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cancelReasonsContanier {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cancelReasonsContanier textarea {
+    width: 100%;
+  }
+}

@@ -1,0 +1,5 @@
+.sectionGrid {
+  position: absolute;
+  background-color: #FFF;
+  z-index: 10;
+}

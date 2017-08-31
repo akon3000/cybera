@@ -1,0 +1,496 @@
+.container .leftBar,
+.container .body {
+  height: 600px;
+}
+
+.container {
+  border: 1px solid #EFEFEF;
+  position: relative;
+}
+
+.container button {
+  cursor: pointer;
+}
+
+.container .header {
+  background: #EFEFEF;
+  color: #666;
+  padding: 10px;
+}
+
+.container .topTools {
+  padding: 5px;
+  float: left;
+  width: 100%;
+  background: #FDFDFD;
+  border-bottom: 1px solid #DDD;
+}
+
+.container .topTools .left {
+  float: left;
+}
+
+.container .topTools .right > div {
+  float: right;
+}
+
+.container .topTools button {
+  border: 1px solid#3787C1;
+  height: 32px;
+  border-radius: 2px;
+  min-width: 32px;
+  padding: 0 5px;
+  background-color: #3787C1;
+  color: #FFF;
+  font-size: 0.85em;
+}
+
+.container .topTools button span {
+  padding: 5px;
+  display: inline-block;
+}
+
+.container .topTools button svg {
+  font-size: 22px;
+  line-height: 21px;
+}
+
+.container .topTools .buttons button {
+  background-color: transparent;
+  color: #8A8A8A;
+  border-right: none;
+  border-radius: 0;
+}
+
+.container .topTools .buttons button:active {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .topTools .buttons button.active {
+  background-color: #3787C1;
+  color: #FFF;
+}
+
+.container .topTools .buttons button:first-child {
+  border-radius: 2px 0 0 2px;
+}
+
+.container .topTools .buttons button:last-child {
+  border: 1px solid#CCC;
+  border-radius: 0 2px 2px 0;
+}
+
+.fileContainer {
+  clear: both;
+  position: relative;
+}
+
+.container .leftBar {
+  width: 300px;
+  background: #F0F3F5;
+  float: left;
+}
+
+.container .leftBar ul {
+  padding-left: 15px;
+}
+
+.container .leftBar li {
+  list-style: none;
+}
+
+.container .leftBar li button {
+  font-size: 14px;
+  text-transform: none !important;
+  outline: none;
+}
+
+.container .leftBar li button svg {
+  margin-right: 7px;
+  font-size: 16px;
+  margin-top: -2px;
+}
+
+.container .body {
+  margin-left: 300px;
+  position: relative;
+  background: #FBFBFC;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.container .body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+.container .body::-webkit-scrollbar-thumb {
+  background-color: #DDD;
+  border: 2px solid #DDD;
+}
+
+.container .loaderOverlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.container .loaderContainer {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  margin: -20px -20px 0 0;
+  width: 40px;
+  height: 40px;
+}
+
+.container .loader {
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container .body .file {
+  float: left;
+  width: 110px;
+  height: 100px;
+  margin: 13px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+}
+
+.container .body .file.activeFile {
+  /* background-color: rgba(17, 125, 184, 0.2); */
+  border: 3px solid rgba(17, 125, 184, 0.5);
+}
+
+.container .body .file .checkedIcon {
+  display: none;
+}
+
+.container .body .file.activeFile .checkedIcon {
+  color: rgba(17, 125, 184, 0.5);
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  font-size: 22px;
+  display: block;
+}
+
+.container .body .fileThumb {
+  width: 100%;
+  height: 75px;
+  float: left;
+}
+
+.container .body .file .fileName {
+  width: 100%;
+  height: 20px;
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: none;
+  overflow: hidden;
+}
+
+.popover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container .body .fileFolder .fileThumb img {
+  width: 80px;
+}
+
+.container .body .file.fileImage .fileName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 3px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.container .body .file.fileImage {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.07), 0 3px 1px -2px rgba(0, 0, 0, 0.06), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.container .body .fileImage .fileThumb {
+  width: 100%;
+  height: 100%;
+}
+
+.container .body .fileImage .fileThumb img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container .body .fileList {
+  width: 100%;
+  height: 30px;
+  float: left;
+  overflow: hidden;
+}
+
+/* .container .body .fileList:hover, */
+.container .body .fileList.activeFile {
+  background: #E5F3FF;
+}
+
+.container .body .fileList > * {
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  overflow: hidden;
+  float: left;
+  width: 13%;
+  padding-left: 2px;
+  color: #6D6D6D;
+  font-size: 0.85em;
+}
+
+.container .body .fileList .checkBox {
+  font-size: 20px;
+  line-height: 23px;
+  width: 26px;
+  position: absolute;
+}
+
+.container .body .fileList > .fileName {
+  width: 48%;
+  color: #000;
+  position: relative;
+}
+
+.container .body .fileList > .fileName > div {
+  width: 1300px;
+}
+
+.container .body .fileList .fileThumb {
+  width: 26px;
+  height: 26px;
+  margin: 2px 10px 2px 2px;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 16px;
+}
+
+.container .body .fileList .fileThumb img {
+  float: left;
+  max-width: 100%;
+}
+
+.container .body .fileList > div button.fileThumb {
+  padding: 0;
+  float: left;
+  text-align: left;
+  height: 30px;
+  margin: 0;
+  text-transform: none !important;
+  margin-left: 14px;
+  width: 50px;
+}
+
+.container .body .fileList > div button {
+  outline: none;
+}
+
+.container .body .fileList .fileButtons {
+  text-align: right;
+}
+
+.container .body .fileList .fileSize {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.fileList .fileButtons button {
+  padding: 0 4px;
+}
+
+.activeFolder {
+  color: rgba(17, 125, 184, 1);
+}
+
+.file .fileButtons {
+  position: absolute;
+  bottom: -24px;
+  right: -3px;
+  margin-right: 3px;
+  display: none;
+  width: 100%;
+}
+
+.file:hover .fileButtons {
+  display: block;
+}
+
+.file .fileButtons button {
+  color: rgba(17, 125, 184, 1);
+  margin-left: 2px;
+  width: 18px;
+  height: 24px;
+  padding: 0;
+  opacity: 0.5;
+}
+
+/*
+.file .fileButtons button:hover {
+  opacity: 1;
+} */
+
+.container .uploadTools {
+  padding: 5px 10px;
+  border-bottom: 1px solid #DDD;
+  background: #FDFDFD;
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+}
+
+.container .uploadTools p {
+  font-size: 0.7em;
+  margin: 5px 0;
+}
+
+.container .uploadTools .uploadButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid#3787C1;
+  border-radius: 2px;
+  padding: 5px 10px;
+  background-color: #3787C1;
+  color: #FFF;
+  font-size: 0.85em;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.container .uploadTools .uploadButton.disabled {
+  opacity: 0.5;
+}
+
+.container .uploadTools .uploadButton svg {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.container .topTools .sorting {
+  font-size: 0.85em;
+  padding: 7px;
+}
+
+.container .topTools .sorting select {
+  background: #FFF;
+  outline: none;
+}
+
+.container .topTools .sorting select option {
+  outline: none;
+}
+
+.container .topTools .left button {
+  margin-right: 7px;
+}
+
+.container .topTools .deleteSelected:disabled {
+  opacity: 0.5;
+}
+
+.container .body .file.fileVideo .fileThumb {
+  background-image: url('./video-boder.png');
+  padding: 0 13px;
+  background-repeat: repeat-y;
+}
+
+.container .body .file.fileVideo .fileThumb .video {
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  outline: none;
+}
+
+.container .body .file.fileVideo .fileThumb video {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.container .body .fileFont .fileThumb img {
+  width: 80px;
+  text-align: center;
+}
+
+.container .body .fileDocument .fileThumb img {
+  width: 55px;
+  text-align: center;
+}
+
+.container .body .fileDocument .fileThumb small {
+  position: absolute;
+  background: green;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 13px;
+  width: 50px;
+  height: 21px;
+  left: 10px;
+  line-height: 21px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  top: 35px;
+  border-radius: 3px;
+}
+
+.topTools .search input {
+  border: 1px solid #3787C1;
+  font-size: 13px;
+  padding: 8px 6px 7px;
+  color: #333;
+  float: left;
+  margin-left: 10px;
+  outline: none;
+  border-radius: 3px 0 0 3px;
+}
+
+.container .topTools .search button {
+  border-radius: 0 3px 3px 0;
+}
+
+@media screen and (max-width: 740px) {
+  .container .uploadTools .uploadButton {
+    position: relative;
+    float: left;
+    text-align: center;
+    top: unset;
+    right: unset;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .uploadToolsText { display: none; }
+
+  .container .leftBar {
+    width: 150px;
+  }
+
+  .container .body {
+    margin-left: 150px;
+  }
+
+  .container .topTools button span {
+    display: none;
+  }
+
+  .container .topTools > div {
+    text-align: center;
+    float: left;
+  }
+}

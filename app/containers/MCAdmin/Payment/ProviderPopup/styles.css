@@ -1,0 +1,27 @@
+.paymentProvider > .provider {
+  width: 50%;
+  padding: 0;
+}
+
+.paymentProvider > .provider > div {
+  margin: 3px;
+  padding: 15px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+
+.paymentProvider > .provider > div:hover {
+  cursor: pointer;
+}
+
+.paymentProvider > .provider > div > img {
+  max-width: 100px;
+  height: auto;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 750px) {
+  .paymentProvider > .provider {
+    width: 100%;
+  }
+}

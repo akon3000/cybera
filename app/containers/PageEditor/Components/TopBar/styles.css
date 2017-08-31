@@ -1,0 +1,122 @@
+.container {
+  background: #18B9E3;
+  color: #FFF;
+  font-family: Montserrat;
+  height: 60px;
+  font-size: 12px;
+  position: fixed;
+  top: 0;
+  z-index: 12;
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(8, 8, 8, 0.16);
+}
+
+.logo {
+  width: 43px;
+  margin: 10px 20px;
+  float: left;
+}
+
+.pageSelector {
+  float: left;
+}
+
+.pageSelector > span {
+  height: 60px;
+  float: left;
+  line-height: 60px;
+  margin-right: 15px;
+}
+
+.container select,
+.container select option {
+  background: #18B9E3;
+}
+
+.container select {
+  border: 1px solid #FFF;
+  padding: 6px;
+  margin-left: 15px;
+  min-width: 180px;
+}
+
+.container select:focus {
+  outline: none;
+}
+
+.container select option span {
+  border: none;
+  padding: 6px;
+}
+
+.rightTools {
+  float: right;
+}
+
+.undo,
+.redo {
+  padding: 0 17px;
+  height: 60px;
+  float: left;
+}
+
+.undo:disabled,
+.redo:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.dropDownIcon {
+  display: inline-block;
+  padding-top: 3px;
+}
+
+.dropDownIcon i {
+  display: inline-block;
+  width: 8px;
+  height: 4px;
+  background-image: url('../../icons.png');
+  background-position-x: -34px;
+  background-position-y: -6px;
+}
+
+.undo i,
+.redo i {
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  background-image: url('../../icons.png');
+}
+
+.mobile {
+  height: 60px;
+  padding: 0 15px;
+  float: left;
+}
+
+.mobile i {
+  display: inline-block;
+  width: 16px;
+  height: 28px;
+  background-image: url('../../icons.png');
+  background-position-x: -42px;
+}
+
+.redo i {
+  background-position-x: -17px;
+}
+
+.gridToggle {
+  float: left;
+  width: 130px;
+  color: #FFF;
+}
+
+button.publish {
+  background: #00659D;
+  height: 60px;
+  width: 130px;
+  float: left;
+
+  /* float: right; */
+}

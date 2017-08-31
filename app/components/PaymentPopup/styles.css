@@ -1,0 +1,103 @@
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+
+.box {
+  font-family: Lato;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 680px;
+  margin-left: -340px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+  text-align: left;
+  font-size: 14px;
+  padding: 50px 0 0;
+  margin-bottom: 50px;
+}
+
+.titleBox {
+  background: #107DB8;
+  font-family: Lato;
+  color: #FFFEFF;
+  border-radius: 3px 3px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: left;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.closeButton {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.buttonFooter {
+  border-top: 1px solid #D1D8DE;
+  display: inline-block;
+  width: 100%;
+}
+
+.buttonFooter button {
+  background: #0681BA;
+  padding: 12px 50px;
+  display: inline-block;
+  color: #FFF;
+  font-family: Lato;
+  border-radius: 3px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  margin-top: 11px;
+}
+
+.submitContainer {
+  text-align: right;
+}
+
+.body {
+  padding: 0 15px;
+}
+
+.boxPadding {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 50px 0 10px;
+  }
+
+  .buttonFooter button {
+    margin-right: 10px;
+    margin-top: 0;
+  }
+}
+
+.selectItems span {
+  float: left;
+}
+
+.selectItems small {
+  float: right;
+}

@@ -1,0 +1,55 @@
+.formContent input {
+  width: 50%;
+  margin-right: 20px;
+  padding: 12px 0;
+  color: #FFF;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  text-indent: 30px;
+}
+
+.formContent button {
+  display: inline-block;
+}
+
+.hintText {
+  height: 0;
+  text-align: left;
+  margin-left: 20%;
+  color: #FFF;
+}
+
+.hintTextMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .formContent input {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 8px 0;
+    text-indent: 20px;
+  }
+
+  .formContent button {
+    width: 80%;
+    padding: 8px 0;
+  }
+
+  .hintText {
+    display: none;
+  }
+
+  .hintTextMobile {
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+    height: 20px;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+}

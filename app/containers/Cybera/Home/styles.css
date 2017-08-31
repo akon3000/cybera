@@ -1,0 +1,520 @@
+.HomeBody {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.introContainer {
+  background-image: url('./bg_blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 42px;
+}
+
+.introWordsContainer {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.introBolder {
+  font-weight: 900;
+  text-shadow: 0 1px, 1px 0, 1px 1px;
+}
+
+.introSmaller {
+  font-size: 26px;
+}
+
+.buttonContainer {
+  text-align: right;
+  padding: 0 10% 3% 0;
+}
+
+button.getStartedButton {
+  border: 3px solid #FFF;
+  padding: 30px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.testimonialContainer {
+  font-size: 16px;
+  background-color: #C60;
+  color: #FFF;
+}
+
+.testimonialContainerMobile {
+  display: none;
+}
+
+.DeviceImg {
+  position: relative;
+  width: 70%;
+  height: 70%;
+}
+
+.DeviceImg img {
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.reviewWords {
+  padding-top: 2%;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.reviewOwner {
+  float: right;
+  line-height: 100%;
+}
+
+.reviewOwner i {
+  font-size: 10px;
+}
+
+.customers img {
+  height: 110px;
+}
+
+.advertiseContainer {
+  padding: 30px 20px;
+  color: #000;
+  font-size: 26px;
+  text-align: center;
+}
+
+.advertiseContainer div {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.servicesContainer {
+  text-align: center;
+  font-size: 15pt;
+  color: #FFF;
+}
+
+.service1 {
+  background-image: url('./service1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service1 div {
+  height: 85px;
+  width: 100%;
+  margin-top: 165px;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+.service2 {
+  background-image: url('./service2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service2 div {
+  height: 85px;
+  width: 100%;
+  margin-top: 165px;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+.service3 {
+  background-image: url('./service3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service3 div {
+  height: 85px;
+  width: 100%;
+  margin-top: 165px;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+.service4 {
+  background-image: url('./service4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service4 div {
+  height: 85px;
+  width: 100%;
+  margin-top: 165px;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+.service5 {
+  background-image: url('./service5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service5Div1 {
+  height: 85px;
+  width: 100%;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+.service5Div2 {
+  height: 165px;
+  width: 100%;
+  padding-top: 50px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.service6 {
+  background-image: url('./service6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+
+.service6 div {
+  height: 85px;
+  width: 100%;
+  margin-top: 165px;
+  padding-top: 25px;
+  background: rgba(204, 102, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .introContainer {
+    font-size: 22px;
+  }
+
+  .introWordsContainer {
+    padding: 20px 0 10px;
+  }
+
+  .mobileShow {
+    display: block;
+  }
+
+  .introBolder {
+    font-weight: 500;
+  }
+
+  .introSmaller {
+    display: none;
+  }
+
+  .buttonContainer {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 100px;
+  }
+
+  button.getStartedButton {
+    border: 3px solid #FFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .testimonialContainer {
+    display: none;
+  }
+
+  .testimonialContainerMobile {
+    display: block;
+    background-color: #C60;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .DeviceImgMobile {
+    position: relative;
+    width: 100%;
+    height: 100px;
+  }
+
+  .DeviceImgMobile img {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+  }
+
+  .reviewWordsMobile {
+    padding-top: 0;
+    padding-left: 10%;
+    float: none;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .reviewOwnerMobile {
+    font-size: 12px;
+    float: none;
+    line-height: 100%;
+    padding-bottom: 10px;
+  }
+
+  .reviewOwnerMobile i {
+    font-size: 10px;
+  }
+
+  .advertiseContainer {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 15px;
+  }
+
+  .advertiseContainer i {
+    font-size: 16px;
+  }
+
+  .advertiseContainer div {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .servicesContainer {
+    font-size: 16px;
+  }
+
+  .service1 {
+    height: 150px;
+  }
+
+  .service1 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service2 {
+    height: 150px;
+  }
+
+  .service2 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service3 {
+    height: 150px;
+  }
+
+  .service3 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service4 {
+    height: 150px;
+  }
+
+  .service4 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service5 {
+    height: 150px;
+  }
+
+  .service5Div1 {
+    height: 60px;
+    margin-top: 0;
+    padding-top: 18px;
+  }
+
+  .service5Div2 {
+    height: 90px;
+    padding-top: 20px;
+  }
+
+  .service6 {
+    height: 150px;
+  }
+
+  .service6 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .introContainer {
+    font-size: 26px;
+  }
+
+  .introWordsContainer {
+    padding: 20px 0 10px;
+  }
+
+  .introBolder {
+    font-weight: 500;
+  }
+
+  .introSmaller {
+    display: none;
+  }
+
+  .buttonContainer {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 150px;
+  }
+
+  button.getStartedButton {
+    border: 3px solid #FFF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .testimonialContainer {
+    font-size: 20px;
+    background-color: #C60;
+    color: #FFF;
+    text-align: center;
+  }
+
+  .DeviceImg {
+    position: relative;
+    width: 100%;
+    height: 105px;
+  }
+
+  .DeviceImg img {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+  }
+
+  .reviewWords {
+    padding-top: 0;
+    text-align: left;
+  }
+
+  .reviewOwner {
+    font-size: 16px;
+  }
+
+  .customers {
+    padding: 10px 0;
+  }
+
+  .customers img {
+    width: 90%;
+  }
+
+  .advertiseContainer {
+    padding: 20px;
+    font-size: 26px;
+    line-height: 20px;
+  }
+
+  .advertiseContainer i {
+    font-size: 20px;
+  }
+
+  .advertiseContainer div {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .servicesContainer {
+    font-size: 16px;
+  }
+
+  .service1 {
+    height: 150px;
+  }
+
+  .service1 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service2 {
+    height: 150px;
+  }
+
+  .service2 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service3 {
+    height: 150px;
+  }
+
+  .service3 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service4 {
+    height: 150px;
+  }
+
+  .service4 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+
+  .service5 {
+    height: 150px;
+  }
+
+  .service5Div1 {
+    height: 60px;
+    margin-top: 0;
+    padding-top: 18px;
+  }
+
+  .service5Div2 {
+    height: 90px;
+    padding-top: 20px;
+  }
+
+  .service6 {
+    height: 150px;
+  }
+
+  .service6 div {
+    height: 60px;
+    margin-top: 90px;
+    padding-top: 18px;
+  }
+}

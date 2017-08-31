@@ -1,0 +1,41 @@
+.popupClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.popupConfirm {
+  text-align: center;
+  background-color: #FFF;
+}
+
+.confirmMsg {
+  margin: 30px 0;
+}
+
+.title {
+  background-color: #3787C1;
+  position: relative;
+  height: 150px;
+}
+
+.title > img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.actionsContianer {
+  border-top: 1px solid #DDD !important;
+  text-align: right;
+  display: inline-block;
+  background-color: #FFF;
+}
+
+.actionsContianer > button {
+  margin-left: 5px;
+  text-transform: capitalize;
+}

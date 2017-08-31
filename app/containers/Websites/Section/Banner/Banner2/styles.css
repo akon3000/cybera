@@ -1,0 +1,11 @@
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .banner-2 .bannerTwoSpace {
+    padding-right: 5px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .banner-2 .bannerThreeSpace {
+    padding-left: 5px !important;
+  }
+}
+

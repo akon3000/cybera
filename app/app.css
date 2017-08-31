@@ -1,0 +1,13 @@
+span[type='button'] {
+  -webkit-appearance: none !important;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+  font-family: Lato;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}

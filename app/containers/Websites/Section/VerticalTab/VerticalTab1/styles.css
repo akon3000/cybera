@@ -1,0 +1,67 @@
+.vertical-tab-1 .tabs-content {
+  display: flex;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-descrip {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 25px 45px;
+  border: 1px solid #DDD;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-nav > .tab {
+  cursor: pointer;
+  position: relative;
+  padding: 15px 0;
+  font-size: 17px;
+  margin-bottom: 5px;
+  background-color: #F8F8F8;
+  border-top: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-nav > .tab.active {
+  background-color: #FFF;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-nav > .tab > .clear-active {
+  position: absolute;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  right: -1px;
+  background-color: #FFF;
+}
+
+.vertical-tab-1 .tabs-content > .tabs-nav > :last-child {
+  margin-bottom: 0;
+}
+
+/* animation keyfream in gobal css file */
+
+.vertical-tab-1 .panel {
+  z-index: 1;
+  display: none;
+}
+
+.vertical-tab-1 .panel.current {
+  z-index: 2;
+  display: block;
+}
+
+.vertical-tab-1 .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.vertical-tab-1 .fadeInRight {
+  animation-name: fadeInRight;
+}

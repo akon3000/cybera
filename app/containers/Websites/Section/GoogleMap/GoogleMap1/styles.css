@@ -1,0 +1,11 @@
+.google-map-1 .title-content {
+  padding: 35px 0;
+}
+
+.google-map-1 .map-content > iframe {
+  border: none;
+}
+
+.google-map-1 .client-content {
+  padding: 35px;
+}

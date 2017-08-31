@@ -1,0 +1,13 @@
+.createButton {
+  width: 60%;
+  background: #0681BA;
+  padding: 12px 0;
+  display: block;
+  color: #FFF;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 13px;
+  text-decoration: none;
+  text-align: center;
+}

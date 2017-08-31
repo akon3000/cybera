@@ -1,0 +1,129 @@
+.popup {
+  font-family: Lato;
+  font-size: 12px;
+  position: relative;
+  color: #656565;
+}
+
+.popup h1 {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.popup p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.popup a {
+  color: #29B7DF;
+  text-decoration: none;
+}
+
+/*
+.popupClose {
+  position: absolute;
+  bottom: -25px;
+  color: #FFF;
+  width: 50%;
+  font-size: 13px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  right: 0;
+  text-align: right;
+}
+*/
+
+.popupClose {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.textFieldContainer {
+  width: 100%;
+  text-align: left;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.textField {
+  position: relative;
+}
+
+.textField > div {
+  width: 100% !important;
+}
+
+.textField > svg {
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  font-size: 20px;
+  color: #999;
+}
+
+.textField input,
+.textField > div > div:first-child {
+  text-indent: 30px;
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.btnSignIn {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.logo {
+  margin: 20px 0 10px;
+}
+
+.passwordField {
+  position: relative;
+}
+
+.popup p.box {
+  border: 1px solid #EBEBEB;
+  width: 340px;
+  padding: 5px 30px;
+  text-align: left;
+  margin: 25px auto;
+  font-size: 14px;
+  color: #555;
+}
+
+.help {
+  display: block;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  right: -5px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.helpText {
+  display: none;
+  position: absolute;
+  width: 300px;
+  right: 5px;
+  top: -50px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  color: #FFF;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.help:hover .helpText {
+  display: block;
+}

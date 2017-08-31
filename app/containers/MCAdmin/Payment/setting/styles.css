@@ -1,0 +1,9 @@
+.containerSetting {
+  padding: 10px 20px;
+  position: relative;
+}
+
+.action {
+  text-align: right;
+  padding: 10px 0;
+}

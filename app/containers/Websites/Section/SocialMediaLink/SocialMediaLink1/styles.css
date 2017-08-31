@@ -1,0 +1,28 @@
+.social-media-link-1 .top-image > .component-image {
+  text-align: center;
+  overflow: hidden;
+}
+
+.social-media-link-1 .top-image > .component-image img {
+  width: 100%;
+  max-height: none;
+}
+
+.social-media-link-1 .title-content {
+  width: 100%;
+  padding-top: 35px;
+  border-bottom: none;
+}
+
+.social-media-link-1 .social-list-content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 35px 0;
+  border-top: none;
+}
+
+.social-media-link-1 .social-list-content img {
+  margin: 0 15px;
+}

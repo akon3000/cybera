@@ -1,0 +1,74 @@
+.container {
+  width: 500px;
+}
+
+.container > :first-child {
+  border-top: 1px solid #DDD;
+}
+
+.container select,
+.container input {
+  border: 1px solid #DDD;
+  width: 100%;
+  padding: 3px 15px;
+}
+
+.panel {
+  padding: 10px 15px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  background-color: #F8F8F8;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+.panel:focus {
+  outline: 0;
+}
+
+.panel.active {
+  background-color: #18B9E3;
+  border: 1px solid #18B9E3;
+  color: #FFF;
+}
+
+.body {
+  border-bottom: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  padding: 10px 15px;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.box {
+  cursor: pointer;
+  border: 1px solid #DDD;
+  width: 20px;
+  height: 20px;
+}
+
+.boxContent {
+  position: relative;
+}
+
+.box:focus {
+  outline: 0;
+}
+
+.colorPicker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  transform: translate(-43%, 5px);
+}
+
+.containerTools {
+  display: inline-block;
+}

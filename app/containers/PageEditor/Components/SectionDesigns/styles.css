@@ -1,0 +1,40 @@
+.container {
+  width: 880px;
+  height: 650px;
+}
+
+.sectionList button {
+  border: 1px solid #E1E1E1;
+  border-radius: 3px;
+  color: #999;
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 3px;
+  text-align: left;
+}
+
+.sectionList button span {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.sectionList button svg {
+  width: 24px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sectionList button svg path {
+  width: 24px;
+}
+
+.sectionList button:focus {
+  color: rgba(24, 185, 227, 1);
+  border-color: rgba(24, 185, 227, 0.3);
+  background: rgba(24, 185, 227, 0.1);
+  outline: none;
+}
+
+.sections button {
+  float: left;
+}

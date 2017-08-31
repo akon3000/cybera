@@ -1,0 +1,35 @@
+.content {
+  padding: 40px 0;
+  font-family: Montserrat;
+}
+
+.graphHeader {
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 0.85em !important;
+  font-family: Montserrat !important;
+}
+
+.barContainer {
+  display: block;
+  width: 100%;
+  height: 400px;
+  font-size: 0.85em !important;
+  font-family: Montserrat !important;
+}
+
+.barContainerMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .barContainer {
+    display: none;
+  }
+
+  .barContainerMobile {
+    display: block;
+    width: 100%;
+    height: 150px;
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  text-align: left;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 0.85em;
+}
+
+.container label {
+  color: #333;
+  font-family: Montserrat;
+  display: inline-block;
+}

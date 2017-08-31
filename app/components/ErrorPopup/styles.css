@@ -1,0 +1,29 @@
+.popupClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.popupError {
+  text-align: center;
+  background-color: #FFF;
+}
+
+.errMsg {
+  margin: 30px 0;
+}
+
+.title {
+  background-color: #FC9962;
+  position: relative;
+  height: 150px;
+}
+
+.title > img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

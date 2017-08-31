@@ -1,0 +1,70 @@
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+
+.box {
+  font-family: Lato;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  margin-left: -300px;
+  margin-top: -300px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  padding: 50px 0 0;
+}
+
+.box h2 {
+  font-weight: normal;
+  font-size: 28px;
+  margin: 0;
+}
+
+.titleBox {
+  background: #107DB8;
+  font-family: Lato;
+  color: #FFFEFF;
+  border-radius: 3px 3px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: left;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.closeButton {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 13px;
+  width: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0 3px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    width: auto;
+    height: auto !important;
+    margin-left: 0;
+    padding: 40px 20px;
+    margin-top: auto !important;
+  }
+}

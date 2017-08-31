@@ -1,0 +1,116 @@
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1101;
+}
+
+.box {
+  font-family: Lato;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 1100px;
+  margin-left: -550px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  padding: 70px 0 0;
+  margin-bottom: 50px;
+}
+
+.box h2 {
+  font-weight: normal;
+  font-size: 28px;
+  margin: 0;
+}
+
+.titleBox {
+  background: #107DB8;
+  font-family: Lato;
+  color: #FFFEFF;
+  border-radius: 3px 3px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  text-align: left;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.closeButton {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.form input {
+  border-bottom: 1px solid #333;
+}
+
+.buttonFooter {
+  border-top: 1px solid #D1D8DE;
+  padding: 10px 10px 5px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.buttonFooter button {
+  background: #0681BA;
+  padding: 12px 50px;
+  display: inline-block;
+  color: #FFF;
+  font-family: Lato;
+  border-radius: 3px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.buttonFooter button:disabled {
+  opacity: 0.5;
+}
+
+.buttonFooter .backButton {
+  float: left;
+}
+
+.buttonFooter .nextButton {
+  float: right;
+}
+
+.body {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1199px) {
+  .box {
+    width: 768px;
+    margin-left: -384px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    margin-left: 0;
+    width: auto;
+    border-radius: 3px;
+    padding: 50px 0 0;
+    margin-bottom: 50px;
+  }
+
+  .rightColumn {
+    margin-top: 12px;
+  }
+}

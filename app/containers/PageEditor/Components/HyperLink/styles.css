@@ -1,0 +1,26 @@
+.btnHyperLinkSave,
+.btnHyperLinkCancel {
+  border-radius: 6px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.btnHyperLinkCancel {
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+.fieldStyles {
+  width: 100% !important;
+}
+
+.hr {
+  margin: 15px 0;
+  border-top: 1px dotted #18B9E2;
+}
+
+.note {
+  text-align: justify;
+  font-size: 10px;
+}
+

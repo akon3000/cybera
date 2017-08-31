@@ -1,0 +1,25 @@
+.blog-list-3 .blog-is-empty {
+  height: 400px;
+  position: relative;
+  background-color: #F8F8F8;
+}
+
+.blog-list-3 .blog-is-empty .message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.3;
+  transform: translate(-50%, -50%);
+}
+
+.blog-list-3 .hr {
+  height: 15px;
+}
+
+.blog-list-3 .padding-left {
+  padding-left: 15px !important;
+}
+
+.blog-list-3 .padding-right {
+  padding-right: 15px !important;
+}

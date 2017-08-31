@@ -1,0 +1,189 @@
+.popup {
+  font-family: Lato;
+  font-size: 12px;
+  position: relative;
+  padding-top: 0 !important;
+  width: 550px;
+}
+
+.newUser {
+  font-size: 13px;
+  color: #656565;
+  padding-bottom: 30px;
+}
+
+.newUser button {
+  color: #29B7DF;
+  cursor: pointer;
+}
+
+.smallLogo {
+  display: none;
+}
+
+/*
+.popupForgotPassword,
+.popupClose {
+  position: absolute;
+  bottom: -25px;
+  color: #FFF;
+  width: 50%;
+  font-size: 13px;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+*/
+
+.popupForgotPassword {
+  left: 0;
+  text-align: left;
+}
+
+.popupClose {
+  top: 5px;
+  position: absolute;
+  right: 5px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.textFieldContainer {
+  width: 100%;
+  text-align: left;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.textField {
+  position: relative;
+}
+
+.textField > div {
+  width: 100% !important;
+}
+
+.textField > svg {
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  font-size: 20px;
+  color: #999;
+}
+
+.textField input:-webkit-autofill,
+.textField input:-webkit-autofill:hover,
+.textField input:-webkit-autofill:focus,
+.textField input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.textField input,
+.textField > div > div:first-child {
+  text-indent: 30px;
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.btnSignIn,
+.btnFacebook {
+  width: 100%;
+  margin: 30px 0 10px !important;
+}
+
+.btnFacebook {
+  padding: 12px 50px;
+  font-size: 12px;
+  background: #3A579B !important;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .btnFacebook {
+    padding: 12px 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .smallLogo {
+    display: block;
+  }
+
+  .textFieldContainer {
+    margin-top: 0 !important;
+    padding-top: 0;
+  }
+
+  .newUser {
+    padding-bottom: 0;
+  }
+
+  .btnSignIn,
+  .btnFacebook {
+    width: 100%;
+    margin: 5px 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .btnFacebook {
+    padding: 12px 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .smallLogo {
+    display: block;
+  }
+
+  .textFieldContainer {
+    margin-top: 10px !important;
+    padding-top: 0;
+  }
+
+  .newUser {
+    padding-bottom: 0;
+  }
+
+  .btnSignIn,
+  .btnFacebook {
+    width: 100%;
+    margin: 20px 0 !important;
+  }
+}
+
+.btnFacebook svg {
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  font-size: 14px;
+  color: #273B6D;
+}
+
+.orLine hr {
+  margin: 11px 0;
+  height: 1px;
+  background: #EBEBEB;
+  border: none;
+}
+
+/* .popup > div > div > div > div {
+  height: 500px;
+} */
+
+@media screen and (max-height: 480px) {
+  .popup > div > div {
+    top: -60px;
+  }
+
+  .popup > div > div > div > div {
+    max-height: none !important;
+  }
+}

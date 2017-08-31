@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.templateBox {
+  margin: 25px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.templateBox h4 {
+  color: #000;
+  text-align: center;
+  font-weight: normal;
+  font-size: 9pt;
+  margin: 10px 0;
+}
+
+.templateBox img {
+  width: 100%;
+  border: 1px solid #EAEAEA;
+}
+
+@media screen and (max-width: 768px) {
+  .templateBox {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .templateBox h4 {
+    color: #000;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+}

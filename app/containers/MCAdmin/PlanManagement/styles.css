@@ -1,0 +1,30 @@
+.row > div {
+  line-height: 40px;
+}
+
+.button {
+  margin: 0;
+}
+
+.successMessage {
+  font-size: 24px;
+  text-align: center;
+}
+
+.row ul {
+  padding-left: 0;
+  list-style: none;
+  line-height: 28px;
+  margin: 0;
+}
+
+/*
+.h1 {
+  font-family: Montserrat;
+  font-size: 1.2em;
+}
+
+.content {
+  font-family: Montserrat;
+}
+*/

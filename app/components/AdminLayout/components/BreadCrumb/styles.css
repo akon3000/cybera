@@ -1,0 +1,29 @@
+.container {
+  margin-top: 15px;
+}
+
+.container > :first-child {
+  margin: 0;
+}
+
+.container .breadCrumb {
+  color: #333;
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+.container .breadCrumb button,
+.container .breadCrumb span {
+  padding: 0;
+  margin-right: 5px;
+}
+
+.container .breadCrumb button:hover {
+  color: #117EB7;
+}
+
+@media print {
+  .container {
+    display: none;
+  }
+}

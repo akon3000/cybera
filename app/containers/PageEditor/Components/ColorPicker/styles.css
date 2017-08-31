@@ -1,0 +1,45 @@
+.boxContent {
+  display: inline-block;
+}
+
+.box {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+  box-shadow: 1px 1px 3px #DDD;
+  z-index: 50;
+}
+
+.box:focus {
+  outline: 0;
+}
+
+.picker {
+  position: absolute;
+  z-index: 10;
+}
+
+.dummyBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dummyBox:focus {
+  outline: 0;
+}
+
+.containerPicker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 49;
+}

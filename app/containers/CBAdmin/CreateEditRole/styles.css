@@ -1,0 +1,34 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}
+
+.statusContainer > label {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.statusContainer > div {
+  padding-top: 10px;
+}
+
+.perMission {
+  padding: 15px 0;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+.checkBoxMessage {
+  position: relative;
+  bottom: 2px;
+  left: 3px;
+  font-size: 11px;
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+}

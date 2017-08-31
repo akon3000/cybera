@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  text-align: left;
+  font-family: Montserrat !important;
+}
+
+.container > label {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.85em !important;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.container .textField {
+  width: 100% !important;
+}
+
+.container .textField input {
+  font-size: 0.85em !important;
+  font-weight: 400 !important;
+  color: #333;
+}

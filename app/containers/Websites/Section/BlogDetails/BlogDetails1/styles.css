@@ -1,0 +1,91 @@
+.blog-details-1 .comments .header {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.blog-details-1 .comments .comment {
+  border: 1px solid #999;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.blog-details-1 .comments .comment .name {
+  margin: 0 0 10px;
+}
+
+.blog-details-1 .comments .comment .name a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.blog-details-1 .comments .comment small {
+  padding-left: 10px;
+}
+
+.blog-details-1 .comments .comment .reply {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px 14px;
+  background: #EFEFEF;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.blog-details-1 .comments .add-comment {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 15px;
+  position: relative;
+}
+
+.blog-details-1 .comments .add-comment input {
+  background: #EEE;
+}
+
+.blog-details-1 {
+  margin-bottom: 200px;
+}
+
+.blog-details-1 .comments .add-comment textarea {
+  min-height: 150px;
+}
+
+.blog-details-1 .comments .add-comment button {
+  float: right;
+  background: #EEE;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.blog-details-1 .comments .comment-reply {
+  padding-left: 100px;
+}
+
+.blog-details-1 .comments .add-comment-reply {
+  padding-left: 100px;
+}
+
+.blog-details-1 .btn-add-commnet {
+  background: #EEE;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.blog-details-1 .info {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.blog-details-1 .info span {
+  margin-right: 15px;
+}

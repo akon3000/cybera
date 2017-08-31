@@ -1,0 +1,37 @@
+.tableTr {
+  font-family: Montserrat;
+  cursor: move;
+  font-size: 12px;
+}
+
+.tableTr td:not(:first-child) {
+  width: 20%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #333;
+  padding: 15px 0;
+}
+
+.tableTr td:first-child {
+  width: 30%;
+  padding-left: 80px;
+  word-wrap: break-word;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.tableTr td:last-child a,
+.tableTr td:last-child button {
+  border: 1px solid #333;
+  font-size: 15px;
+  color: #333;
+  display: inline-block;
+  overflow: hidden;
+  opacity: 0.5;
+  vertical-align: middle;
+  padding: 3px 7px 6px;
+}
+
+.tableTr td:last-child a:hover {
+  opacity: 1;
+}

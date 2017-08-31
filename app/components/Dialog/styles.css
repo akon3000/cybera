@@ -1,0 +1,50 @@
+.actionsContianer {
+  border-top: 1px solid #DDD !important;
+  text-align: right;
+  display: inline-block;
+}
+
+.actionsContianer > button {
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.headerDialog {
+  background-color: #3787C1;
+  color: #FFF !important;
+  font-weight: 300 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+}
+
+.headerDialog > .textTitle {
+  padding: 22px 25px;
+  text-transform: capitalize;
+}
+
+.headerDialog > .closeDialog {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.bodyDialog {
+  padding: 30px !important;
+}
+
+.children {
+  font-family: Montserrat !important;
+  color: #333 !important;
+  font-size: 0.85em !important;
+  text-align: left !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .dialog {
+    transform: none !important;
+  }
+}

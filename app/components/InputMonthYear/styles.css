@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.container label {
+  color: #030303;
+  font-family: Lato;
+  display: inline-block;
+}
+
+.container .textField {
+  width: 100% !important;
+  font-family: Lato;
+}

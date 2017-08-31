@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  font-family: Montserrat !important;
+}
+
+.container > label {
+  width: 100%;
+  color: #333;
+  font-size: 0.85em;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.container .selectField {
+  max-width: 100% !important;
+  font-family: Montserrat;
+  font-weight: 400;
+  outline: none;
+}
+
+.container .selectField.iconField > div > :first-child {
+  text-indent: 40px;
+}
+
+.container > div > div:first-child {
+  text-indent: 40px;
+  font-family: Montserrat !important;
+  font-size: 0.9em !important;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.container > svg:first-child {
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  font-size: 20px;
+  color: #333;
+  opacity: 0.3;
+}
+
+.container.error {
+  height: 81.6px;
+}

@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(226, 198, 23, 0);
+  transition: background-color 0.5s ease;
+}
+
+.container:hover {
+  background: rgba(226, 198, 23, 0.4);
+
+  /* opacity: 1; */
+}
+
+.container .buttons {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -19px;
+  width: 100%;
+  opacity: 0;
+  transform: opacity 0.5s ease;
+}
+
+.container:hover .buttons {
+  opacity: 1;
+}
+
+.container .buttons button {
+  margin: 0 10px;
+  background: rgb(226, 198, 23);
+  cursor: pointer;
+}

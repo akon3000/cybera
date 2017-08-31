@@ -1,0 +1,17 @@
+.laptopTable {
+  display: block;
+}
+
+.MobileTable {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .laptopTable {
+    display: none;
+  }
+
+  .MobileTable {
+    display: block;
+  }
+}

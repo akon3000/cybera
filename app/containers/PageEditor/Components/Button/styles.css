@@ -1,0 +1,27 @@
+.btn {
+  background: #18B9E2;
+  margin: 5px 0 5px 5px;
+  color: #FFF;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 19px;
+  padding: 0 10px;
+  box-shadow: 0 3px 5px rgba(102, 102, 102, 0.3);
+  cursor: pointer;
+  line-height: 16px;
+}
+
+.btn span {
+  font-size: 12px;
+  height: 18px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.btn svg {
+  font-size: 18px;
+}
+
+.btn.both svg {
+  margin-left: 5px;
+}

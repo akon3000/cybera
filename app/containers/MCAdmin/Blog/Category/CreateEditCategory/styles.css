@@ -1,0 +1,57 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}
+
+.checkBoxMessage {
+  position: relative;
+  bottom: 2px;
+  left: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+}
+
+.Label {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.parentCategory {
+  margin-left: 25px;
+  font-family: Montserrat;
+  font-size: 0.85em;
+}
+
+.warnText {
+  font-family: Montserrat;
+  font-size: 11px;
+  color: rgb(244, 67, 54);
+  line-height: 12px;
+}
+
+.H1 {
+  font-family: Montserrat;
+  font-size: 1.2em;
+}
+
+.H2 {
+  font-family: Montserrat;
+  font-size: 1.1em;
+}
+
+.H3 {
+  font-family: Montserrat;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+  .statusContainer {
+    margin-top: 20px;
+  }
+}

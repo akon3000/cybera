@@ -1,0 +1,38 @@
+.subscribe-1 {
+  position: relative;
+}
+
+.subscribe-1 .form {
+  padding: 15px;
+}
+
+.subscribe-1 .form .subscribe-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.subscribe-1 .form .subscribe-input::placeholder {
+  color: #DDD;
+}
+
+.subscribe-1 .form .subscribe-submit {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscribe-1 .success {
+  color: #05FA51;
+}
+
+.subscribe-1 .error {
+  color: #FA0505;
+}
+
+.subscribe-1 .error-input {
+  border: 1px solid #FA0505 !important;
+  outline: none;
+}

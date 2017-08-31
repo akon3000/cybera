@@ -1,0 +1,28 @@
+.tapsContainer {
+  border-bottom: 1px solid #EEE;
+  position: relative;
+}
+
+.tapButtonContainer {
+  position: relative;
+}
+
+.tab button {
+  font-size: 0.9em;
+  padding: 20px 40px 15px;
+  font-weight: bold;
+  color: #666;
+}
+
+.tab.activeTap button {
+  color: #0681BA;
+}
+
+.tab {
+  display: inline-block;
+}
+
+.underline {
+  background-color: #0681BA;
+  position: absolute;
+}

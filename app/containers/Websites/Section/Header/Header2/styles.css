@@ -1,0 +1,83 @@
+.header2 {
+  background: #FF4081;
+  color: #FFF;
+  display: none;
+}
+
+.header2-sub-header {
+  background: #000;
+  text-align: right;
+}
+
+.header2-sub-header button {
+  font-size: 10px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.header2-sub-header button:last-child {
+  padding-right: 0;
+}
+
+.header2-main-header {
+  display: inline-block;
+  width: 100%;
+}
+
+.header2-main-header-left {
+  float: left;
+  width: 200px;
+  margin-right: 65px;
+}
+
+.header2-main-header-right {
+  float: right;
+  width: 160px;
+  text-align: right;
+}
+
+.header2-main-header-center {
+  display: inline-block;
+  text-align: center;
+}
+
+.header2-main-header-center button {
+  padding: 43px 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.menu-icons {
+  background: #FFF;
+  padding: 16px 15px;
+  margin: 25px 0;
+}
+
+.menu-icons i {
+  width: 20px;
+  height: 18px;
+  background-image: url('./menu-icons.png');
+  float: left;
+}
+
+.menu-icons-account {
+  margin-right: 35px;
+}
+
+.menu-icons-cart {
+  position: relative;
+}
+
+.menu-icons-cart i {
+  background-position-x: -20px;
+}
+
+.menu-icons-cart small {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 8px;
+  position: absolute;
+  top: 12px;
+  background: #000;
+  left: -16px;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body .template1 {
+  background: #FFF;
+  color: #666;
+  font-family: Montserrat, sans-serif;
+}
+
+.section-container.Header {
+  z-index: 3;
+  color: #FFF;
+}
+
+.template1 h1,
+.template1 h2,
+.template1 h3,
+.template1 h4 {
+  font-weight: bold;/* margin: 20px 0 10px; */
+  margin: 0;
+  color: #323232;
+}
+
+.template1 h1 {
+  text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+td.pillContainer {
+  padding: 3px;
+}
+
+td.name {
+  min-width: 200px;
+}
+
+.subscriberList,
+.subscriberNumber {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  list-style-type: none;
+  line-height: 27px;
+  padding-left: 0;
+}
+
+.subscriberNumber li {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .subscriberList {
+    padding-left: 0;
+  }
+
+  .subscriberNumber {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  width: 300px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #FFF;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 8;
+}
+
+.container .title {
+  background-color: #3787C1;
+  color: #FFF;
+  font-size: 0.85em;
+  padding: 8px 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+}
+
+.container .topTools {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container .topTools button {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.container .topTools button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.container .itemContainer {
+  padding: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-top: 33px;
+}
+
+.container .itemContainer::-webkit-scrollbar {
+  width: 5px;
+  background-color: #F5F5F5;
+}
+
+.container .itemContainer::-webkit-scrollbar-thumb {
+  background-color: #DDD;
+  border: 2px solid #DDD;
+}

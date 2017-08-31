@@ -1,0 +1,26 @@
+.container .tinymce {
+  margin-top: 12px;
+}
+
+.container.error .tinymce {
+  border: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.container.error .errorMessage {
+  font-family: Montserrat !important;
+  position: relative;
+  bottom: 2px;
+  font-size: 11px;
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+  padding-top: 5px;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.container > label {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.85em !important;
+  display: inline-block;
+  text-transform: capitalize;
+}

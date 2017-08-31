@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  font-family: Montserrat;
+  text-align: left;
+}
+
+.container label {
+  color: #030303;
+  font-weight: 600;
+  font-size: 0.85em;
+  display: inline-block;
+}
+
+.container .textField {
+  width: 100% !important;
+}
+
+.container .textField div:first-child {
+  font-family: Montserrat;
+  font-size: 0.85em !important;
+  font-weight: 400 !important;
+}
+
+.container .textField input {
+  font-size: 0.85em !important;
+  font-weight: 400 !important;
+  color: #333;
+}

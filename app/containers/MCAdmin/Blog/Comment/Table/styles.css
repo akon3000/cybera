@@ -1,0 +1,247 @@
+.tableContainer {
+  position: relative;
+  color: #030303;
+}
+
+.tableMobileContainer {
+  display: none;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tableContainer table tr th {
+  text-transform: capitalize;
+  vertical-align: middle;
+  font-size: 0.9em;
+  color: #333;
+  padding: 15px;
+  position: relative;
+}
+
+.tableContainer table tr:nth-child(even) {
+  background-color: #D0E4ED;
+}
+
+.tableContainer table tr:hover {
+  background-color: #B6DBEA;
+}
+
+.tableContainer table tr td {
+  border-bottom: 0;
+  padding: 9px 0;
+}
+
+.tableContainer table tbody tr:first-child td {
+  padding-top: 12px;
+}
+
+.tableContainer table tbody tr:last-child td {
+  border-bottom: 1px solid #DDD;
+}
+
+.tableContainer table tr td:last-child a,
+.tableContainer table tr td:last-child button,
+.tableMobileContainer table tr:last-child td:last-child a,
+.tableMobileContainer table tr:last-child td:last-child button {
+  border: 1px solid #333;
+  font-size: 15px;
+  color: #333;
+  display: inline-block;
+  overflow: hidden;
+  opacity: 0.5;
+  vertical-align: middle;
+  padding: 3px 7px 6px;
+}
+
+.tableContainer table tr td:last-child a:hover {
+  opacity: 1;
+}
+
+.footer {
+  float: right;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 500;
+  color: #030303;
+}
+
+.footer > div {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.footer > div > select {
+  color: #030303;
+  margin-left: 15px;
+  border: 1px solid #BBB;
+  padding: 3px 5px;
+}
+
+.footer > div > select option {
+  text-align: right;
+}
+
+.footer > div button > svg {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.th {
+  cursor: pointer;
+}
+
+.arrowhidden {
+  display: none;
+}
+
+.arrowshow {
+  display: inline-block;
+  pointer-events: none;
+  position: absolute;
+  right: -3px;
+  top: 50%;
+  margin-top: -9px;
+  height: 18px;
+  color: #333;
+}
+
+.downloads {
+  /* width: 100%; */
+  float: left;
+  text-align: right;
+  padding: 0 0 10px;
+}
+
+.downloadsMobile {
+  display: none;
+}
+
+button.clearCriteria {
+  text-transform: none !important;
+  border-radius: 20px;
+}
+
+button.download {
+  color: #989898;
+  border: 1px solid #999;
+  padding: 5px;
+  font-size: 10px;
+  opacity: 0.5;
+  margin: 5px 7px 0 0;
+}
+
+button.download:hover {
+  opacity: 0.8;
+}
+
+button.download svg {
+  font-size: 14px;
+}
+
+.downloadButtons {
+  display: inline-block;
+  height: 48px;
+}
+
+.leftRightStyle {
+  width: 20px;
+  line-height: 25px;
+  height: 30px;
+  color: #333;
+  padding: 0;
+  display: inline-block;
+  opacity: 0.6;
+  text-align: right;
+}
+
+.leftRightStyle:last-child {
+  margin-left: 15px;
+}
+
+.leftRightStyle:disabled {
+  opacity: 0.3 !important;
+  cursor: default;
+}
+
+.leftRightStyle:hover {
+  opacity: 1;
+}
+
+.footer > div button.leftRightStyle > svg {
+  margin-left: 0;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .tableContainer {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .downloads {
+    display: none;
+  }
+
+  .downloadsMobile {
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 0 0 10px;
+  }
+
+  .tableMobileContainer {
+    display: block;
+    position: relative;
+  }
+
+  .tableMobileContainer table tr:nth-child(odd) {
+    background-color: #D0E4ED;
+  }
+
+  .tableMobileContainer table td button {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .tableMobileContainer table td:first-child {
+    width: 40% !important;
+  }
+
+  .tableMobileContainer table {
+    text-align: left;
+  }
+
+  .SwipeIndicatorLeft {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    color: #999;
+    cursor: default !important;
+  }
+
+  .SwipeIndicatorRight {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    color: #999;
+    cursor: default !important;
+  }
+
+  .disabled {
+    color: #F2F2F2;
+  }
+
+  .hide {
+    display: none;
+  }
+}

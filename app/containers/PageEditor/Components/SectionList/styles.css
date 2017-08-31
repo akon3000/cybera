@@ -1,0 +1,89 @@
+.bodyCustom {
+  overflow-y: hidden !important;
+}
+
+.sectionList {
+  overflow-y: auto;
+}
+
+.sectionList::-webkit-scrollbar {
+  width: 2px;
+  background-color: #F5F5F5;
+}
+
+.sectionList::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 2px solid #AAA;
+}
+
+.sectionList button {
+  border: 1px solid #E1E1E1;
+  border-radius: 3px;
+  color: #999;
+  padding: 10px 20px;
+  width: 100%;
+  margin-bottom: 3px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sectionList button span {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.sectionList button svg {
+  width: 24px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sectionList button svg path {
+  width: 24px;
+}
+
+.sectionList button:focus {
+  color: rgba(24, 185, 227, 1);
+  border-color: rgba(24, 185, 227, 0.3);
+  background: rgba(24, 185, 227, 0.1);
+  outline: none;
+}
+
+.sections {
+  overflow-y: auto;
+}
+
+.sections::-webkit-scrollbar {
+  width: 2px;
+  background-color: #F5F5F5;
+}
+
+.sections::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 2px solid #AAA;
+}
+
+.sections button {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sections > div {
+  column-width: 320px;
+  column-gap: 15px;
+  width: 100%;
+}
+
+.sections > div > button {
+  /* background: #fefefe; */
+  border: 1px solid #EFEFEF;
+  box-shadow: 0 0 2px rgba(34, 25, 25, 0.08);
+  margin: 0 0 15px;
+  padding: 10px;
+  transition: opacity 0.4s ease-in-out;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: pointer;
+
+  /* column-break-inside: avoid; */
+}

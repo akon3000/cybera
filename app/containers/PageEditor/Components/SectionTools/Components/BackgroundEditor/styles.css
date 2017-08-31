@@ -1,0 +1,108 @@
+.contianer {
+  display: inline-block;
+}
+
+.image,
+.colorpicker {
+  width: 225px;
+  display: inline-block;
+}
+
+.colorpicker > div {
+  box-shadow: none !important;
+  border: 1px solid #EEE;
+}
+
+.image {
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.image .preview {
+  background: #EEE;
+  width: 100%;
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  border: 1px solid #EEE;
+  text-align: center;
+}
+
+.image .preview img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image .preview button.addImage {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  text-align: right;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 20px;
+  height: 20px;
+}
+
+.position {
+  font-size: 12px;
+  display: inline-block;
+  width: 100%;
+}
+
+.position > div {
+  clear: both;
+  margin: 7px 0;
+}
+
+.position h4 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.position select,
+.position > div > input {
+  background: #F5F5F5;
+  float: right;
+  margin-left: 5px;
+}
+
+.position select:disabled,
+.position input:disabled {
+  opacity: 0.4;
+}
+
+.position label {
+  line-height: 12px;
+}
+
+.position label input {
+  margin-top: 3px;
+}
+
+.position input[type='number'] {
+  text-align: right;
+  width: 60px;
+}
+
+.imageOptions {
+  position: relative;
+}
+
+.imageOptions .mask {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  font-size: 20px;
+  padding: 0;
+}

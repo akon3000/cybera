@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  margin: 20px 0;
+}
+
+.containerPopup {
+  font-size: 16px;
+}
+
+.containerPopup p {
+  font-size: 0.85em;
+}
+
+.row {
+  padding: 10px 0;
+}
+
+.box {
+  padding: 0 !important;
+}
+
+.settingIcon {
+  padding-left: 15px;
+}
+
+.settingAndRemove {
+  color: #0681BA;
+}
+
+.settingAndRemove > button:hover {
+  color: #49AFDE;
+}
+
+.providerIcon > img {
+  margin-bottom: 25px;
+}
+
+.providerLink {
+  text-align: right;
+}
+
+.providerLink > a {
+  text-decoration: none;
+  color: #0681BA;
+  font-size: 0.85em;
+}
+
+.containerAction {
+  text-align: right;
+  padding-top: 15px;
+}

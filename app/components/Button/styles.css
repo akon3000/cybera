@@ -1,0 +1,83 @@
+/*
+ * --------------------------------------------------
+ * Component Button Variable in Attribute { btnType }
+ * --------------------------------------------------
+ *
+ * -> btnType : ['positive', 'negative', 'highlighted', 'table-trash']
+ */
+
+.btn {
+  display: inline-block;
+  font-size: 0.85em;
+  line-height: 20px;
+  cursor: pointer;
+  font-family: Montserrat;
+  white-space: nowrap;
+  margin: 0 5px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.btn > svg {
+  transform: translate(-5px, -2px);
+}
+
+.positive,
+.positive:hover:disabled {
+  background-color: #3787C1;
+}
+
+.positive:hover {
+  background-color: #94C1E8;
+  outline: 0;
+}
+
+.positive:focus {
+  background-color: #3787C1;
+}
+
+.negative {
+  background-color: #E38E33;
+}
+
+.negative:hover {
+  background-color: #E2B88A;
+  outline: 0;
+}
+
+.positive,
+.negative {
+  padding: 8px 37px;
+  border-radius: 3px;
+  color: #FFF;
+}
+
+.highlighted {
+  background: #FFF;
+  color: #333;
+  padding: 9px 22px;
+  border: solid 1px #00AFEC !important;
+  border-radius: 34px;
+}
+
+.btn.highlighted > svg {
+  transform: translate(-5px, -1px);
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.table-trash {
+  padding: 8px 37px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: solid 1px #F6A687 !important;
+  background: #FFF;
+  color: #F6A687;
+}
+
+.table-trash:hover {
+  text-decoration: underline;
+}

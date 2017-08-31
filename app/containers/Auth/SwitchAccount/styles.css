@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  color: #030303;
+  padding-top: 50px;
+}
+
+.accountContainer {
+  padding: 60px 0;
+}
+
+.accountBoxes {
+  display: inline-block;
+  margin: 20px 55px;
+}
+
+.accountBoxes img {
+  width: 50px;
+}
+
+.accountBoxes h1 {
+  font-size: 24px;
+  margin: 20px 0 0;
+}
+
+.accountBoxes h2 {
+  font-size: 16px;
+  margin: 0 0 20px;
+}

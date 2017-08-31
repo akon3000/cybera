@@ -1,0 +1,41 @@
+button.download {
+  color: #989898;
+  border: 1px solid #999;
+  padding: 5px;
+  font-size: 10px;
+  opacity: 0.5;
+  margin: 30px 0 0 7px;
+}
+
+button.download:hover {
+  opacity: 0.8;
+}
+
+button.download svg {
+  font-size: 14px;
+}
+
+.downloadButtons {
+  display: inline-block;
+  height: 48px;
+}
+
+.newDiscount {
+  width: 60%;
+  background: #0681BA;
+  padding: 12px 0;
+  display: block;
+  color: #FFF;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 13px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .newDiscount {
+    margin-bottom: 10px;
+  }
+}

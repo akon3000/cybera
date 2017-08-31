@@ -1,0 +1,105 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}
+
+.status > label {
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+.status > div {
+  padding-top: 15px;
+}
+
+.textFieldContainer {
+  width: 100%;
+  text-align: left;
+  font-family: Montserrat !important;
+}
+
+.textFieldContainer > label {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.85em !important;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.textFieldContainer .textField {
+  width: 100% !important;
+}
+
+.textFieldContainer .textField input {
+  font-size: 0.85em !important;
+  font-weight: 400 !important;
+  color: #333;
+}
+
+.textFieldCodeContainer {
+  width: 100%;
+  text-align: left;
+  font-family: Montserrat !important;
+}
+
+.textFieldCodeContainer > label {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.85em !important;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.textFieldCodeContainer .textFieldCode {
+  width: 100% !important;
+}
+
+.textFieldCodeContainer .textFieldCode input {
+  font-size: 0.85em !important;
+  font-weight: 400 !important;
+  color: #333;
+}
+
+.textFieldCode {
+  position: relative !important;
+}
+
+.textFieldCode div:nth-child(3) {
+  position: absolute !important;
+  top: 60px !important;
+}
+
+.codeLoadingContainer {
+  position: relative;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: spin 1s infinite steps(8);
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .textFieldCode div:nth-child(3) {
+    top: 72px !important;
+  }
+
+  .AmountContainer {
+    margin-top: 30px;
+  }
+}

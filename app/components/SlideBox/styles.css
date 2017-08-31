@@ -1,0 +1,51 @@
+.containers {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.slideLeft,
+.slideRight {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 70px;
+  margin-top: -40px;
+  color: #141414;
+  background: #EBEBEB;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slideLeft:disabled,
+.slideRight:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.slideLeft {
+  left: 5px;
+}
+
+.slideRight {
+  right: 5px;
+}
+
+.slideLeft svg,
+.slideRight svg {
+  margin-top: -10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.containers > div {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  float: left;
+}

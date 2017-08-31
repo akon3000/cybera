@@ -1,0 +1,19 @@
+.row > div {
+  line-height: 50px;
+}
+
+.button {
+  width: 100%;
+}
+
+.content,
+.header {
+  font-family: Montserrat;
+  font-size: 0.85em;
+}
+
+.successMessage {
+  font-family: Montserrat;
+  color: #333;
+  text-align: left;
+}

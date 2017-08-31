@@ -1,0 +1,79 @@
+.horizontal-tab-1 {
+  position: relative;
+}
+
+.horizontal-tab-1 .tabs-descrip {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.horizontal-tab-1 .tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.horizontal-tab-1 .tabs-nav > li {
+  display: inline-block;
+  padding-right: 5px;
+  border-bottom: 1px solid #DDD;
+}
+
+.horizontal-tab-1 .tabs-nav > li > button {
+  width: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px 10px;
+  background-color: #F8F8F8;
+}
+
+.horizontal-tab-1 .tabs-nav > li.active > button {
+  background-color: rgba(0, 0, 0, 0);
+  border-top: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+}
+
+.horizontal-tab-1 .tabs-nav > li.active {
+  border-bottom: none;
+  padding-right: 0;
+}
+
+.horizontal-tab-1 .tabs-nav.noneline > li {
+  padding: 5px;
+  border: none;
+}
+
+.horizontal-tab-1 .tabs-nav.noneline > li > button {
+  border: 1px solid #DDD;
+}
+
+.horizontal-tab-1 .tabs-descrip.noneline {
+  border: 1px solid #DDD;
+  margin-top: 5px;
+}
+
+/* animation keyfream in gobal css file */
+
+.horizontal-tab-1 .panel {
+  z-index: 1;
+  display: none;
+}
+
+.horizontal-tab-1 .panel.current {
+  z-index: 2;
+  display: block;
+}
+
+.horizontal-tab-1 .animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.horizontal-tab-1 .fadeInRight {
+  animation-name: fadeInRight;
+}

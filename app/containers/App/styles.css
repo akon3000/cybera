@@ -1,0 +1,51 @@
+/**
+ * styles.css
+ *
+ * App container styles
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat');
+
+.container {
+  font-family: Lato, Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+.container h1 {
+  font-weight: 400;
+}
+
+.container h2 {
+  font-weight: 400;
+}
+
+.container button {
+  cursor: pointer;
+}
+
+button > div > span {
+  text-transform: capitalize !important;
+}
+
+.container button:focus {
+  outline: 0;
+}
+
+input:disabled {
+  color: #999 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+  border: none;
+}

@@ -1,0 +1,172 @@
+.container {
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.3);
+  animation: slideup 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  z-index: 9001;
+}
+
+@keyframes slideup {
+  from {
+    top: 400px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.logo {
+  margin: 13px;
+  height: 35px;
+}
+
+.topTool {
+  height: 60px;
+  border-bottom: 1px solid #DDD;
+}
+
+.topTool .rightTool {
+  float: right;
+}
+
+.closeBtn {
+  font-size: 30px;
+  margin: 0 10px;
+  color: #333;
+}
+
+.desktopIcon,
+.tabletIcon,
+.phoneIcon {
+  font-size: 18px;
+  color: #030303;
+  padding: 0 10px;
+}
+
+.desktopIcon:hover,
+.tabletIcon:hover,
+.phoneIcon:hover {
+  color: #000;
+}
+
+.tabletIcon {
+  border-left: 1px solid #EBEBEB;
+  border-right: 1px solid #EBEBEB;
+}
+
+.container .selectBtn {
+  font-size: 18px;
+  border: 3px solid #333;
+  padding: 8px 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 9px 5px 0 20px;
+}
+
+.iframeDesktop,
+.iframeTablet,
+.iframeMobile {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  left: 15px;
+  top: 75px;
+  animation: showUp 1s;
+}
+
+@keyframes showUp {
+  99% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+.iframeDesktop iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.iframeTablet {
+  background: url('./ipad.svg') no-repeat center 20px;
+}
+
+.iframeTablet div {
+  position: relative;
+  height: 100%;
+}
+
+.iframeTablet iframe {
+  top: 201px;
+  margin-left: -391px;
+  width: 782px;
+  border: none;
+  height: 100%;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  max-height: 1036px;
+}
+
+.iframeMobile {
+  background: url('./iphone.svg') no-repeat center 20px;
+}
+
+.iframeMobile div {
+  position: relative;
+  height: 100%;
+}
+
+.iframeMobile iframe {
+  top: 200px;
+  margin-left: -167px;
+  width: 336px;
+  border: none;
+  height: 100%;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  max-height: 496px;
+}
+
+.container iframe::-webkit-scrollbar {
+  width: 3px;
+}
+
+.container iframe::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container iframe::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container iframe::-webkit-scrollbar-button {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 1px;
+}
+
+.container iframe::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+@media screen and (max-width: 450px) {
+  .desktopIcon,
+  .tabletIcon,
+  .phoneIcon {
+    display: none;
+  }
+}

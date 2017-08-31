@@ -1,0 +1,72 @@
+.btnPrint {
+  border: solid 1px #999 !important;
+  padding: 5px;
+  line-height: 10px;
+  float: right;
+  opacity: 0.6;
+}
+
+.btnPrint:hover {
+  opacity: 1;
+}
+
+.pageHeader {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.pageHeader > :first-child > img {
+  max-width: 200px;
+}
+
+.headtableReceipt > tbody > tr > td {
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.headtableReceipt > tbody > tr > :nth-child(1) {
+  width: 70%;
+}
+
+.headtableReceipt > tbody > tr > :nth-child(3) {
+  text-align: right;
+  font-weight: normal;
+}
+
+.tableReceipt > tbody > tr > td {
+  border: solid 1px #000;
+  font-size: 1em;
+}
+
+.tableReceipt > tbody > tr > :first-child {
+  font-weight: bold;
+  width: 35%;
+}
+
+@media print {
+  .pageHeader {
+    margin-top: 20px;
+  }
+
+  .pageHeader > :last-child {
+    display: none !important;
+  }
+
+  .headLine {
+    text-indent: -9999px;
+  }
+
+  .headLine::after {
+    width: 100%;
+    content: attr(title);
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+
+  .headtableReceipt > tbody > tr > :nth-child(1) {
+    width: 50%;
+  }
+}

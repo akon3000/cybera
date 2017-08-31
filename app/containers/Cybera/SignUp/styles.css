@@ -1,0 +1,94 @@
+.signUpPage {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.topTitle {
+  background-image: url('./bg_blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 42px;
+  padding: 65px 0;
+}
+
+.headlineContainer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 22pt;
+}
+
+.headlineSmaller {
+  font-size: 18pt;
+  line-height: 25pt;
+}
+
+.loding,
+.error {
+  text-align: center;
+  padding: 150px 0;
+}
+
+.templatesRow {
+  position: relative;
+}
+
+.templatesRowMobile {
+  display: none !important;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .templatesRowMobile {
+    display: block !important;
+  }
+
+  .templatesRow {
+    display: none !important;
+  }
+
+  .topTitle {
+    font-size: 22px;
+    padding: 35px 0;
+  }
+
+  .headlineContainer {
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-size: 12pt;
+  }
+
+  .headlineSmaller {
+    font-size: 10pt;
+    line-height: 12pt;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .headlineContainer {
+    padding-top: 30px;
+    padding-bottom: 0;
+    line-height: 20px;
+    font-size: 15pt;
+  }
+
+  .headlineSmaller {
+    font-size: 12pt;
+    line-height: 15pt;
+  }
+
+  .topTitle {
+    font-size: 30pt;
+    padding: 50px 0;
+  }
+}
+
+.pleaseLogOut {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 16px;
+}

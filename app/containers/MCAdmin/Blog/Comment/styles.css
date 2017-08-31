@@ -1,0 +1,11 @@
+.searchButton {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 10px 30px;
+  color: #3787C1;
+}
+
+.searchButton:hover {
+  color: #94C1E8;
+}

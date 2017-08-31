@@ -1,0 +1,354 @@
+.hr {
+  border-top: 1px solid #F7F8FA;
+}
+
+.websiteEditContainer {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 0.85em;
+  color: #333;
+  display: table;
+  background: #FFF;
+  box-shadow: 0 1px 1px #EEE;
+  border-radius: 5px;
+}
+
+.decorateWebsiteImgContainer {
+  display: table-cell;
+  background: #8EB8C9;
+  padding: 50px 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.decorateWebsiteImgContainer img {
+  width: 120px;
+  margin: 40px 50px;
+}
+
+.decorateWebsiteImgContainer div {
+  width: 100%;
+  color: #FFF;
+  margin: 20px 0;
+}
+
+.decorateWebsiteImgContainer button {
+  font-family: Montserrat;
+  font-size: 14px;
+  text-align: center;
+  width: 70%;
+  margin: 10px 0;
+}
+
+.previewContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.previewContainer > div {
+  margin: 30px 10px 30px 30px;
+  text-align: left;
+}
+
+.previewContainer div p:nth-child(1) {
+  margin: 30px 0;
+  line-height: 20px;
+  text-align: left;
+}
+
+.previewList li {
+  vertical-align: middle;
+  list-style-type: none;
+  margin: 30px 0;
+  line-height: 20px;
+}
+
+.previewList li img {
+  width: 40px;
+  margin: 5px 20px 0 0;
+  float: left;
+}
+
+.previewList li p {
+  float: left;
+}
+
+.previewList li button {
+  margin-top: 5px;
+  float: right;
+}
+
+.linkbutton {
+  width: 25px !important;
+  color: blue;
+}
+
+.linkbutton:hover {
+  opacity: 0.5;
+}
+
+.settingLink:hover {
+  opacity: 0.5;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+.businessFormContainer {
+  margin-top: 27px;
+  padding: 30px 0;
+  background: #FFF;
+  color: #333;
+  box-shadow: 0 1px 1px #EEE;
+  border-radius: 5px;
+}
+
+.businessFormContainer > img {
+  margin: 10px 10px 10px 40px;
+  width: 60px;
+  float: left;
+}
+
+.businessFormButtonContainer {
+  margin-bottom: 30px;
+  font-family: Montserrat;
+  float: left;
+}
+
+.businessFormButtonContainer > div {
+  margin: 10px 0 20px 5px;
+}
+
+.businessFormList {
+  margin-right: 20px;
+}
+
+.businessFormList li {
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 0.85em;
+}
+
+.businessFormList li p {
+  float: left;
+  text-indent: 15px;
+}
+
+.businessFormList li button {
+  margin-top: 10px;
+  float: right;
+}
+
+.websiteInfoContainer {
+  background: #FFF;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 1px #EEE;
+  border-radius: 5px;
+}
+
+.websiteInfoContainer > img {
+  margin: 20px 20px 20px 40px;
+  width: 60px;
+  float: left;
+}
+
+.websiteInfoContainer > p {
+  margin: 50px 0 40px 50px;
+  font-family: Montserrat;
+  float: left;
+}
+
+.domainNameContainer {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  color: #FFF;
+  margin-top: 13px;
+  padding: 10px 0;
+  text-align: center;
+  background: #7CA5DB;
+  box-shadow: 0 1px 1px #EEE;
+}
+
+.domainNameContainer p:nth-child(1) {
+  font-size: 1.2em;
+}
+
+.domainNameContainer > img {
+  margin: 6px;
+  width: 80px;
+}
+
+.domainNameContainer div {
+  margin: 25px 20px 0 0;
+  text-align: right;
+}
+
+.domainNameContainerHigher {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  color: #FFF;
+  margin-top: 13px;
+  padding: 21px 0;
+  text-align: center;
+  background: #7CA5DB;
+  box-shadow: 0 1px 1px #EEE;
+}
+
+.domainNameContainerHigher p:nth-child(1) {
+  font-size: 1.2em;
+}
+
+.domainNameContainerHigher > img {
+  margin: 24px;
+  width: 80px;
+}
+
+.domainNameContainerHigher div {
+  margin: 25px 20px 0 0;
+  text-align: right;
+}
+
+@media screen and (max-width: 1024px) {
+  .businessFormContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .websiteEditContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .websiteEditContainer {
+    display: block;
+  }
+
+  .decorateWebsiteImgContainer {
+    display: block;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 0;
+  }
+
+  .decorateWebsiteImgContainer img {
+    margin: 0;
+  }
+
+  .decorateWebsiteImgContainer div {
+    margin: 10px 0 0;
+  }
+
+  .decorateWebsiteImgContainer button {
+    width: 150px;
+  }
+
+  .previewContainer {
+    display: block;
+  }
+
+  .previewContainer > div {
+    margin: 10px 0 0;
+    text-align: center;
+  }
+
+  .previewContainer div p:nth-child(1) {
+    margin: 0;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .previewList {
+    margin-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .previewList li {
+    margin: 0;
+    line-height: 20px;
+  }
+
+  .businessFormContainer {
+    margin-top: 10px;
+    padding: 0 0 10px;
+    text-align: center;
+  }
+
+  .businessFormContainer > img {
+    margin: 0;
+    display: inline-block;
+    float: none;
+  }
+
+  .businessFormButtonContainer {
+    margin-bottom: 0;
+    display: inline-block;
+    float: none;
+  }
+
+  .businessFormButtonContainer > div {
+    margin: 10px 0 10px 5px;
+  }
+
+  .businessFormList {
+    margin: 0 20px 0 0;
+  }
+
+  .businessFormList li p {
+    margin: 6px 0 0;
+  }
+
+  .businessFormList li button {
+    margin-top: 0;
+  }
+
+  .websiteInfoContainer {
+    text-align: center;
+  }
+
+  .websiteInfoContainer > img {
+    display: inline-block;
+    margin: 0;
+    width: 60px;
+    float: none;
+  }
+
+  .websiteInfoContainer > p {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  .domainNameContainer {
+    padding: 10px 0;
+  }
+
+  .domainNameContainer p:nth-child(1) {
+    margin: 0;
+  }
+
+  .domainNameContainer > img {
+    margin: 0;
+  }
+
+  .domainNameContainer div {
+    margin: 0 20px 0 0;
+  }
+
+  .domainNameContainerHigher {
+    padding: 10px 0;
+  }
+
+  .domainNameContainerHigher p:nth-child(1) {
+    margin: 0;
+  }
+
+  .domainNameContainerHigher > img {
+    margin: 0;
+  }
+
+  .domainNameContainerHigher div {
+    margin: 0 20px 0 0;
+  }
+}

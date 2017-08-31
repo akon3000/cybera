@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+  font-size: 0.85em;
+}
+
+.container > label {
+  color: #333;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.container .radioGroup {
+  width: 100%;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding: 7px 0;
+  outline: none;
+  margin-top: 7px;
+  display: inline-block;
+}
+
+.container.error .radioGroup {
+  border-bottom: 2px solid #F44336;
+}
+
+.container.error .errorText {
+  font-size: 12px;
+  color: #F44336;
+}
+
+.container .radioGroup > div {
+  width: auto !important;
+  margin: 10px 20px 10px 0;
+}
+
+.container .radioGroup.inline > div {
+  float: left;
+}
+
+.container .radioGroup label {
+  width: 100% !important;
+}
+
+.container .radioGroup > div > div > div {
+  margin-right: 5px !important;
+}

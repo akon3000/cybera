@@ -1,0 +1,24 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}
+
+.statusContainer > label {
+  font-family: Montserrat;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.statusContainer > div {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .statusContainer {
+    margin-top: 15px;
+  }
+}

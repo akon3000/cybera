@@ -1,0 +1,159 @@
+
+/*
+.section {
+  position: relative;
+  border-top: 1px dashed rgba(0, 0, 0, 0);
+  border-bottom: 1px dashed rgba(0, 0, 0, 0);
+}
+
+.gridFluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.body {
+  position: relative;
+}
+
+.children {
+  z-index: 11;
+}
+
+.children > * {
+  z-index: 11;
+}
+*/
+
+.active {
+  border-top: 1px solid rgba(16, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(16, 0, 0, 0.1);
+  z-index: 11;
+}
+
+.addSection {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  -webkit-border-radius: 90% 0 60% 60% / 60% 0 90% 60%;
+  border-radius: 90% 0 60% 60% / 60% 0 90% 60%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #18B9E2;
+  -webkit-transform: rotateZ(-135deg);
+  transform: rotateZ(-135deg);
+  position: absolute;
+  left: 50%;
+  margin-left: 498px;
+  z-index: 11;
+  cursor: pointer;
+}
+
+.fluid.addSection {
+  left: auto;
+  right: 10px;
+  margin-left: auto;
+}
+
+.addSection svg {
+  color: #FFF;
+  -webkit-transform: rotateZ(135deg);
+  transform: rotateZ(135deg);
+  font-size: 12px;
+}
+
+.addSection.top {
+  top: -13px;
+}
+
+.addSection.bottom {
+  bottom: -14px;
+}
+
+/*
+.fluid .addSection {
+  right: 10px;
+}
+*/
+
+.arrowSection {
+  width: 21px;
+  height: 20px;
+  padding: 0;
+  background: #18B9E2;
+  z-index: 9;
+  position: absolute;
+  color: #FFF;
+  left: 50%;
+  margin-left: 488px;
+  cursor: pointer;
+}
+
+.fluid .arrowSection {
+  left: auto;
+  right: 20px;
+  margin-left: auto;
+}
+
+.arrowSection svg {
+  height: 14px;
+  margin-top: -3px;
+}
+
+.arrowSection.up {
+  top: 50%;
+  margin-top: -20px;
+  border-radius: 5px 5px 0 0;
+}
+
+.arrowSection.down {
+  top: 50%;
+  border-radius: 0 0 5px 5px;
+}
+
+.bottomTools {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.button {
+  background: #248EC2;
+  color: #FFF;
+  text-align: center;
+  border-radius: 18px;
+  height: 36px;
+  font-size: 0.85em;
+  padding: 0 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+.button svg {
+  margin-right: 5px;
+}
+
+.customSectoinTools {
+  position: absolute;
+  bottom: 10px;
+  z-index: 3;
+  width: 550px;
+  left: 46%;
+  text-align: right;
+}
+
+.fluid .customSectoinTools {
+  right: 50px;
+  left: auto;
+}
+
+.customSectoinTools button {
+  margin-left: 15px;
+}

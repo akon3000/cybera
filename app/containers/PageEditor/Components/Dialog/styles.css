@@ -1,0 +1,78 @@
+.dialog {
+  max-width: none !important;
+}
+
+.actionsContianer {
+  border-top: 1px solid #DDD !important;
+  text-align: right;
+  display: inline-block;
+  background: #FFF;
+}
+
+.actionsContianer > button {
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+
+.headerDialog {
+  background-color: #18B9E2;
+  color: #FFF !important;
+  font-weight: 300 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px 3px 0 0;
+}
+
+.headerDialog > .textTitle {
+  padding: 9px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.headerDialog > .closeDialog {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.bodyDialog {
+  padding: 15px !important;
+  background-color: #FFF;
+  overflow-y: auto !important;
+  overflow-x: auto;
+}
+
+.bodyDialog::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #F5F5F5;
+}
+
+.bodyDialog::-webkit-scrollbar-thumb {
+  background-color: #DDD;
+  border: 2px solid #DDD;
+}
+
+.children {
+  font-family: Montserrat !important;
+  color: #333 !important;
+  font-size: 0.85em !important;
+  text-align: left !important;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .dialog {
+    transform: none !important;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}

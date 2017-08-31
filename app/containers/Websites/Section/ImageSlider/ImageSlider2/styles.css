@@ -1,0 +1,90 @@
+.ImageSlider2 {
+  height: 650px;
+  width: 100%;
+}
+
+.imageSlide1-items {
+  height: 650px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center center;
+  position: absolute;
+  animation: animate-right 1s forwards;
+}
+
+.imageSlide1-items.hide {
+  animation: animate-fadeout 1s forwards;
+}
+
+.ImageSlider2-navigator-container {
+  position: absolute;
+  bottom: 15px;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+}
+
+.ImageSlider2-navigator {
+  font-size: 17px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 11px;
+  padding: 0;
+  opacity: 0.3;
+  width: 12px;
+  display: inline-block;
+  background: #000;
+  height: 12px;
+}
+
+.ImageSlider2-navigator.active {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.ImageSlider2-navigator.active svg {
+  margin-bottom: -4px;
+}
+
+.ImageSlider2-back,
+.ImageSlider2-forward {
+  width: 70px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  opacity: 0.3;
+  transition: opacity 1s;
+}
+
+.ImageSlider2-back:hover,
+.ImageSlider2-forward:hover {
+  opacity: 1;
+}
+
+.ImageSlider2-back {
+  left: 0;
+}
+
+.ImageSlider2-forward {
+  right: 0;
+}
+
+.ImageSlider2-back i,
+.ImageSlider2-forward i {
+  width: 13px;
+  height: 24px;
+  background-image: url('./icons.png');
+  float: left;
+}
+
+.ImageSlider2-back i {
+  margin-left: 30px;
+}
+
+.ImageSlider2-forward i {
+  margin-left: 30px;
+  background-position-x: -13px;
+}
+

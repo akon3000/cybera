@@ -1,0 +1,103 @@
+.footer1 {
+  background: #131E2B;
+  text-align: center;
+  padding: 40px 0;
+  color: #FFF;
+  display: none;
+}
+
+.footer1-body {
+  margin: 38px 0;
+}
+
+.footer1-body > div.col-6-sm {
+  margin: 0;
+  width: 50%;
+}
+
+.footer1-body-left {
+  text-align: right;
+  padding: 10px 60px 10px 0;
+}
+
+.footer1-body-right {
+  text-align: left;
+  border-left: 1px solid #0072B7;
+  padding: 10px 0 10px 80px;
+}
+
+.footer1-socials {
+  margin: 0 6px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.footer1-socials:hover {
+  opacity: 1;
+}
+
+.footer1-socials i {
+  width: 20px;
+  height: 20px;
+  background-image: url('./icons.png');
+  float: left;
+}
+
+.footer1-socials-facebook i {
+  background-position-x: 0;
+}
+
+.footer1-socials-instagram i {
+  background-position-x: -20px;
+}
+
+.footer1-socials-google i {
+  background-position-x: -40px;
+}
+
+.footer1-socials-twitter i {
+  background-position-x: -60px;
+}
+
+.footer1-icons {
+  width: 20px;
+  height: 20px;
+  background-image: url('./icons.png');
+  display: inline-block;
+  margin: 0 15px -5px -35px;
+}
+
+.footer1-icons-email {
+  background-position-x: -80px;
+}
+
+.footer1-icons-phone {
+  background-position-x: -100px;
+}
+
+.footer1-icons-address {
+  background-position-x: -120px;
+}
+
+.footer1-copyright {
+  color: #7EA3D0;
+  font-size: 12px;
+}
+
+.footer1-socials-container {
+  padding-bottom: 25px;
+}
+
+.footer1-body p {
+  margin: 0;
+  width: 250px;
+  padding-left: 35px;
+  clear: both;
+  text-align: left;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer1-body-left p {
+  float: right;
+}

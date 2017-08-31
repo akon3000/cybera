@@ -1,0 +1,9 @@
+.section-container {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.section {
+  position: relative;
+}

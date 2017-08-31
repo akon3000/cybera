@@ -1,0 +1,38 @@
+.buttonFooter {
+  text-align: right;
+}
+
+.buttonFooter > :first-child,
+.buttonFooter > :last-child {
+  margin: 15px 10px 0 !important;
+}
+
+.warnText {
+  font-size: 12px;
+  color: rgb(244, 67, 54);
+  line-height: 12px;
+}
+
+.inputText {
+  padding: 0;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: montserrat;
+  font-size: 0.85em;
+}
+
+.hr {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.hintText {
+  display: table-cell;
+  width: 100px;
+  white-space: nowrap;
+  font-family: montserrat;
+  font-size: 0.85em;
+}

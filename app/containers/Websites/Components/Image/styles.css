@@ -1,0 +1,29 @@
+.component-image.component-image-default {
+  background: #F8F8F8;
+  background-image: url('./default.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+.component-image.component-image-default-user {
+  background-image: url('./default-user.svg');
+}
+
+.component-image.component-image-default-logo {
+  background-image: url('./default-logo.png');
+}
+
+.component-image {
+  max-width: 100%;
+  position: relative;
+}
+
+.component-image.component-image-default img {
+  width: 90px;
+}
+
+.component-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
